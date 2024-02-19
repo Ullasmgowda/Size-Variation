@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    animation-name: demoanimation;
+    animation-duration: 10s;
+    border-radius: 100px;
+    background-color: burlywood;
+
+}
+@keyframes demoanimation{
+ 10%{
+background-color: red;
+ transform: translate(10%,10%) scale(1);
+ }
+ 30%{
+background-color: blue;
+transform: translate(80%,40%) scale(0.8);
+ }
+ 50%{
+    background-color: green;
+    transform: translate(180%,80%) scale(0.6);
+ }
+ 70%{
+    background-color: blueviolet;
+    transform: translate(250%,120%) scale(0.4);
+ }
+ 90%{
+    background-color:orange;
+    transform: translate(320%,180%) scale(0.2);
+ }
+}
